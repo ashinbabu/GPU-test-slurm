@@ -1,0 +1,12 @@
+Running test on GPU: NVIDIA A100 80GB PCIe
+Loading model bert-large-uncased...
+Starting 200 inference steps with batch size 128...
+Completed step 50/200. Time elapsed: 120.15s
+Completed step 100/200. Time elapsed: 243.78s
+Completed step 150/200. Time elapsed: 367.04s
+Completed step 200/200. Time elapsed: 490.08s
+
+--- Benchmark Results ---
+Total time taken: 492.52 seconds
+Total samples processed: 25600
+Throughput: 51.98 samples/sec

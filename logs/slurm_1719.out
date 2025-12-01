@@ -1,0 +1,18 @@
+===== Job Info =====
+Job ID: 1719
+Node List: csis.cn2
+GPUs Allocated: 0
+====================
+Starting 1-GPU BERT test.
+Running test on GPU: NVIDIA A100 80GB PCIe
+Loading model bert-large-uncased...
+Starting 200 inference steps with batch size 128...
+Completed step 50/200. Time elapsed: 120.50s
+Completed step 100/200. Time elapsed: 244.58s
+Completed step 150/200. Time elapsed: 368.33s
+Completed step 200/200. Time elapsed: 492.05s
+
+--- Benchmark Results ---
+Total time taken: 494.51 seconds
+Total samples processed: 25600
+Throughput: 51.77 samples/sec
