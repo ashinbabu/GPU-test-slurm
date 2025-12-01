@@ -1,8 +1,0 @@
-Starting job 1721 on node csis.cn2
---- SLURM Launch Info ---
-GPUs Requested: 2
-GPU IDs Allocated: 0,1
--------------------------
-Launching 2 independent processes concurrently...
-All concurrent processes finished.
-Job finished. Total throughput must be calculated by combining the results in logs/process_0.log and logs/process_1.log.
