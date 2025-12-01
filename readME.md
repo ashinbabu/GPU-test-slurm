@@ -26,12 +26,24 @@ Use the Conda module available on the cluster to create a dedicated environment 
 
 ```bash
 # Load the necessary modules (may vary by cluster configuration)
-module load anaconda
 module load cuda/11.8 # Example: use the CUDA version installed on the compute nodes
 
 # 1. Create a new Conda environment
-conda create -n bert_bench python=3.10 -y
+conda create -n bert python=3.10 -y
 
 # 2. Activate the new environment
-conda activate bert_bench
+conda activate bert
+```
+### Step 2: Install Dependencies
+
+```bash
+# 3. Install the required packages from requirements.txt
+pip install -r requirements.txt
+```
+### Step3: Prepare and submit the SLURM job
+
+```bash
+sbatch BERT_single_GPU.sh
+sbatch BERT_two_GPU.sh
+
 ```
